@@ -10,7 +10,7 @@ class Login extends REST_Controller {
 		parent::__construct();
 		$this->load->database();
 
-		header("Access-Control-Allow-Methods: GET");
+		header("Access-Control-Allow-Methods: GET, POST");
 		header("Access-Control-Allow-Headers: Content-Type, Content-Length, Accept-Encoding");
 		header("Access-Control-Allow-Origin: *");
 	}
